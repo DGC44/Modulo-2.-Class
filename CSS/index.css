@@ -14,6 +14,11 @@ header {
     text-align: center;
 }
 
+.by {
+    background-color: blueviolet;
+    padding: 10px 20px;
+}
+
 /* Contenedor principal de tarjetas */
 .cards {
     padding: 20px;
@@ -155,4 +160,16 @@ header {
 
 .clase3-1 a button:hover{
     background-color: rgba(45, 89, 245, 0.763);
+}
+
+/* Estilos del Footer */
+footer {
+    color: white;
+    background-color: purple;
+    padding: 1rem;
+    text-align: center;
+    height: 60px;
+    bottom: 0;
+    width: 100%;
+    align-items: flex-end;
 }
