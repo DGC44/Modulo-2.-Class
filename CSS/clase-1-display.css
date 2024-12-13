@@ -1,0 +1,40 @@
+.contenedor {
+    margin: 20px;
+    padding: 10px;
+    border: 2px solid #333;
+}
+
+/* Elementos block*/
+
+.bloque {
+    background-color: #ffcdd2;
+    border: 2px solid #e57373;
+    margin: 10px;
+    padding: 10px;
+    width: 300px;
+}
+
+/* Elementos inline */
+.en-linea {
+    background-color: #cBe6c9;
+    border: 2px solid #81c784;
+    width: 400px;
+    margin: 5px;
+    padding: 5px;
+}
+
+/* Elementos inline-block */
+.en-linea-block {
+    background-color: #bbdefb;
+    border: 2px solid #64b5f6;
+    width: 150px;
+    margin: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+/* Pseudo clase */
+.en-linea-block:hover {
+    background-color: #64b5f6;
+    color: white;
+}
